@@ -56,3 +56,15 @@ int div(int number1, int number2)
 	//TODO implementation
 	return 0;
 }
+
+
+int mod(int number1, int number2){
+	//imple
+	if(number2!=0){
+		return number1%number2;
+	}
+	else{
+		return -1;
+	}
+}
+
